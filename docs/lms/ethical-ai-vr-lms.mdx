@@ -1,0 +1,121 @@
+---
+title: "Ethical AI in VR – Interactive Course"
+description: "An accessible, step-by-step LMS module teaching Ethical AI practices for Vocational Rehabilitation."
+sidebar_position: 1
+slug: "/lms"
+---
+
+import Accordion from '@site/src/components/Accordion';
+import { AccordionItem } from '@site/src/components/Accordion';
+import ProgressTracker from '@site/src/components/ProgressTracker';
+import Quiz from '@site/src/components/Quiz';
+
+# Ethical AI in Vocational Rehabilitation (LMS)
+
+<ProgressTracker modules={["Intro", "Ethics", "Accessibility", "Case Studies", "Quiz"]} />
+
+## Table of Contents
+
+- [Intro](#intro)
+- [Ethics](#ethics)
+- [Accessibility](#accessibility)
+- [Case Studies](#case-studies)
+- [Quiz](#quiz)
+
+<Accordion>
+  <AccordionItem title="Intro" id="intro">
+    <p>This module introduces the foundations of AI within vocational rehabilitation (VR). You'll learn key terms and why ethical considerations matter.</p>
+
+    ### What is AI?
+    - Machine learning basics
+    - Data-driven decision making
+
+    ```js
+    const example = 'Hello AI in VR';
+    console.log(example);
+    ```
+
+    ### Why VR Professionals Should Care
+    - AI can streamline case management
+    - Ethical pitfalls can harm clients if ignored
+
+    <Quiz question="AI stands for?" options={["Artificial Insight", "Artificial Intelligence", "Automated Interaction", "Accessible Interface"]} correctIndex={1} />
+  </AccordionItem>
+
+  <AccordionItem title="Ethics" id="ethics">
+    <p>Focus on fairness, accountability, and transparency when using AI tools in VR settings.</p>
+
+    ### Fairness in Algorithms
+    - Avoid biased training data
+    - Regularly audit outcomes
+
+    ```python
+    def check_bias(data):
+        # Placeholder logic
+        return sum(data) / len(data)
+    ```
+
+    ### Accountability
+    - Document decision processes
+    - Offer clear grievance procedures
+
+    <Quiz question="Which concept ensures decisions can be explained?" options={["Opacity", "Transparency", "Secrecy", "Obfuscation"]} correctIndex={1} />
+  </AccordionItem>
+
+  <AccordionItem title="Accessibility" id="accessibility">
+    <p>This module covers WCAG 2.2 AA guidelines to make AI tools usable by everyone.</p>
+
+    ### Perceivable
+    - Provide text alternatives for non-text content
+    - Ensure sufficient color contrast
+
+    ```html
+    <img src="accessible-chart.svg" alt="Employment rates chart" />
+    ```
+
+    ### Operable
+    - All interactive elements are keyboard accessible
+    - Give users enough time to respond
+
+    <Quiz question="What WCAG level does this course target?" options={["Level A", "Level AA", "Level AAA", "No standard"]} correctIndex={1} />
+  </AccordionItem>
+
+  <AccordionItem title="Case Studies" id="case-studies">
+    <p>Real-world scenarios show ethical AI successes and failures in VR.</p>
+
+    ### Success Story
+    - AI-powered job matching improves outcomes
+    - Transparent algorithm builds trust
+
+    ```json
+    {
+      "matchedJob": "Software Tester",
+      "confidence": 0.87
+    }
+    ```
+
+    ### Lessons Learned
+    - Importance of inclusive data collection
+    - Ongoing monitoring for bias
+
+    <Quiz question="Why review case studies?" options={["To memorize facts", "To apply lessons from real situations", "For entertainment", "They are mandatory"]} correctIndex={1} />
+  </AccordionItem>
+
+  <AccordionItem title="Quiz" id="quiz">
+    <p>Test your understanding of all previous modules.</p>
+
+    ### Final Question
+    - Ethical AI requires which of the following?
+      - Fairness
+      - Accountability
+      - Accessibility
+
+    ```js
+    const requirements = ['Fairness', 'Accountability', 'Accessibility'];
+    alert(requirements.join(', '));
+    ```
+
+    <Quiz question="Select all core ethical principles" options={["Fairness", "Bias", "Transparency", "Accessibility"]} correctIndex={0} />
+  </AccordionItem>
+</Accordion>
+
