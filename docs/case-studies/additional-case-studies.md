@@ -42,3 +42,39 @@ A state vocational rehabilitation program built a predictive model using anonymi
 **Explanation**
 Researchers developed a VR workplace simulator that modifies tasks based on user performance. To meet accessibility goals, all text alternatives and captions followed the repository's requirements. Therapists noted that adjustable pacing helped reduce cognitive strain. By combining human oversight with adaptive algorithms, the project demonstrated a successful approach to inclusive VR training.
 
+## Case Study 4: Walmart's VR Training Program
+
+**Key Points**
+- Large retail chain partnered with Strivr to teach associates how to handle busy shopping days
+- Training sessions collect performance metrics under a strict privacy policy
+- Reported decrease in onboarding time and improved confidence among new hires
+
+**Explanation**
+Walmart rolled out headsets so employees could practice scenarios like Black Friday crowds. The company worked with Strivr to keep usage data anonymous and participation voluntary. Clear communication about metrics addressed surveillance concerns while still measuring effectiveness. [Strivr's case study](https://www.strivr.com/walmart-case-study/) provides additional details.
+
+## Case Study 5: Bravemind PTSD Therapy
+
+**Key Points**
+- Developed by the University of Southern California's Institute for Creative Technologies
+- Immersive environments help veterans revisit traumatic memories in a controlled setting
+- Sessions require licensed clinicians and explicit informed consent
+
+**Explanation**
+Bravemind exposes participants to tailored VR scenes while therapists monitor reactions and adjust intensity. Ethical guidelines mandate voluntary participation and clinical oversight to minimize distress. Studies show meaningful symptom reduction for many veterans. More information is available on the [USC ICT website](https://ict.usc.edu/prototypes/bravemind/).
+
+## Case Study 6: Harassment in Social VR Platforms
+
+**Key Points**
+- Testers in Meta's Horizon Worlds reported incidents of virtual harassment
+- Platform responded by implementing personal boundary features
+- Highlights the importance of clear community standards in VR spaces
+
+**Explanation**
+Early adopters of Horizon Worlds described unwanted contact from other avatars, prompting discussion about moderating social VR. Meta added safety tools like default distance buffers and easier reporting. This episode shows that ethical VR design must address user behavior along with technical accessibility. [The Verge](https://www.theverge.com/2021/12/16/22839010/meta-horizon-worlds-vr-harassment-virtual-reality) summarizes the controversy.
+
+## Additional Links
+
+- [Strivr Walmart Case Study](https://www.strivr.com/walmart-case-study/)
+- [USC ICT Bravemind Project](https://ict.usc.edu/prototypes/bravemind/)
+- [The Verge on Horizon Worlds Harassment](https://www.theverge.com/2021/12/16/22839010/meta-horizon-worlds-vr-harassment-virtual-reality)
+
