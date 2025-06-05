@@ -61,6 +61,28 @@ main {
     padding: 1em;
 }
 
+.hero {
+    background-color: #111;
+    padding: 2em 1em;
+    text-align: center;
+}
+
+.hero h2 {
+    margin-top: 0;
+    font-size: 2em;
+}
+
+.hero p {
+    font-size: 1.2em;
+    max-width: 800px;
+    margin: 0.5em auto;
+}
+
+.intro-text {
+    max-width: 800px;
+    margin: 1em auto;
+}
+
 footer {
     background-color: #000;
     color: #fff;
