@@ -9,7 +9,7 @@
 
 1. [Scope & Purpose](#scope--purpose)  
 2. [Target WCAG Level](#target-wcag-level)  
-3. [WCAG 2.2 Success Criteria & Implementation Notes](#wcag 22-success-criteria--implementation-notes)  
+3. [WCAG 2.2 Success Criteria & Implementation Notes](#wcag-22-success-criteria--implementation-notes)
    - [1. Perceivable](#1-perceivable)  
      - [1.1 Text Alternatives (1.1.1)](#11-text-alternatives-111)  
      - [1.2 Time-based Media (1.2.x)](#12-time-based-media-12x)  
