@@ -7,13 +7,14 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <header>
+    <a href="#maincontent" class="skip-link">Skip to main content</a>
+    <header role="banner">
         <h1>Case Studies & Real-World Applications</h1>
     </header>
-    <nav>
+    <nav role="navigation" aria-label="Main navigation">
         <a href="index.html">Home</a>
     </nav>
-    <main>
+    <main id="maincontent" role="main" tabindex="-1">
         <h2>Government & Agency Pilots</h2>
         <p>Some state agencies have tested AI-driven tools to streamline vocational assessments. Measuring placement rates and user satisfaction helps evaluate success.</p>
         <h2>Academic & Nonprofit Projects</h2>
@@ -23,7 +24,7 @@
         <h2>Lessons Learned</h2>
         <p>Past failures highlight the importance of diverse training data and accessible interfaces. Communities affected by AI should be involved from the start.</p>
     </main>
-    <footer>
+    <footer role="contentinfo">
         <p>&copy; 2023 Ethical AI in Vocational Rehabilitation</p>
     </footer>
 </body>
