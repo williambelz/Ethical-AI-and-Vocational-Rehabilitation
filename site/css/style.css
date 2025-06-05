@@ -5,6 +5,28 @@ body {
     line-height: 1.6;
 }
 
+/* Skip link styles for improved keyboard navigation */
+.skip-link {
+    position: absolute;
+    left: -999px;
+    top: auto;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+}
+
+.skip-link:focus {
+    position: static;
+    width: auto;
+    height: auto;
+    margin: 1em;
+    background: #fff;
+    color: #003366;
+    padding: 0.5em 1em;
+    border: 2px solid #003366;
+    z-index: 1000;
+}
+
 header {
     background-color: #003366;
     color: #fff;
@@ -22,6 +44,11 @@ nav a {
     color: #003366;
     text-decoration: none;
     font-weight: bold;
+}
+
+a:focus {
+    outline: 2px dashed #003366;
+    outline-offset: 2px;
 }
 
 main {

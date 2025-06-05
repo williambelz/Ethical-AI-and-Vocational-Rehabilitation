@@ -1,6 +1,8 @@
 # Ethical-AI-and-Vocational-Rehabilitation
 A comprehensive, community-driven website dedicated to exploring, documenting, and sharing best practices around the ethical use of artificial intelligence within the field of vocational rehabilitation. This repository contains both the source code for the website and the content (articles, case studies, guidelines, accessibility resources) necessary to create a living knowledge base for practitioners, policy makers, researchers, and developers interested in how AI can—and should—be applied ethically when helping people with disabilities return to or enter the workforce.
 
+For detailed accessibility guidelines followed by this project, see [ACCESSIBILITY_REQUIREMENTS.md](ACCESSIBILITY_REQUIREMENTS.md).
+
 Table of Contents
 Project Overview
 
