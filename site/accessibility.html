@@ -16,12 +16,30 @@
         <a href="index.html">Home</a>
     </nav>
     <main id="maincontent" role="main" tabindex="-1">
+        <h2>Commitment to Inclusive Access</h2>
+        <p>We design every page so people with disabilities can easily perceive, understand, and interact with our content. This resource collects tips to make your own vocational rehabilitation tools accessible.</p>
         <h2>WCAG Compliance</h2>
-        <p>All resources should meet at least WCAG 2.1 AA standards. Use proper color contrast, semantic headings, and keyboard-friendly navigation.</p>
-        <h2>Document & Media Accessibility</h2>
-        <p>Images require descriptive alt text, videos should have captions, and PDFs must be tagged for screen reader compatibility.</p>
-        <h2>Inclusive Design</h2>
-        <p>Consider neurodivergent users and those who rely on assistive technology. Avoid flashing content and provide plain-language summaries where possible.</p>
+        <p>All resources should meet at least WCAG 2.1 AA standards. Provide semantic headings, keyboard-friendly navigation, and sufficient color contrast.</p>
+        <h2>Document &amp; Media Accessibility</h2>
+        <p>Images require descriptive alt text. Videos should include captions and audio descriptions. PDFs must be tagged for screen reader compatibility and text transcripts should be supplied for audio-only files.</p>
+        <h2>Keyboard Navigation &amp; Focus Management</h2>
+        <p>Ensure every interactive control can be reached using the keyboard alone. Maintain a logical focus order and provide clear focus styles so users always know where they are on the page.</p>
+        <h2>Assistive Technology Support</h2>
+        <ul>
+            <li>Use semantic HTML elements so screen readers can announce content correctly.</li>
+            <li>Provide ARIA labels for custom widgets and buttons.</li>
+            <li>Ensure forms and navigation work with voice control and switch devices.</li>
+        </ul>
+        <h2>Color Contrast &amp; Visual Design</h2>
+        <p>Our dark theme uses a minimum contrast ratio of 4.5:1 for normal text. Test color combinations with automated tools and avoid conveying meaning with color alone.</p>
+        <h2>Accessible Forms</h2>
+        <p>Associate each input field with a <code>label</code> element. Describe errors using <code>aria-describedby</code> and provide plain‑language instructions for completing forms.</p>
+        <h2>Responsive Layouts</h2>
+        <p>Layouts reflow for small screens without horizontal scrolling. Use relative units and test zoomed text up to 200% to confirm readability.</p>
+        <h2>Testing Resources</h2>
+        <p>Automated tools like axe-core, pa11y, and browser accessibility checkers help locate issues early. Manual testing with screen readers and keyboard only is essential. See our <a href="../ACCESSIBILITY_REQUIREMENTS.md">Accessibility Requirements</a> for full guidelines.</p>
+        <h2>Continuous Improvement</h2>
+        <p>Accessibility is an ongoing effort. We welcome bug reports or suggestions on our GitHub repository so we can keep refining these resources.</p>
     </main>
     <footer role="contentinfo">
         <p>&copy; 2023 Ethical AI in Vocational Rehabilitation</p>
