@@ -20,10 +20,39 @@
         <a href="policy.html">Policy & Legal</a>
         <a href="technical.html">Technical Guidance</a>
         <a href="community.html">Community</a>
+        <a href="ethical-ai-documentation.html">AI Documentation</a>
     </nav>
     <main id="maincontent" role="main" tabindex="-1">
         <h2>Welcome</h2>
         <p>This site explores how artificial intelligence can be applied responsibly in vocational rehabilitation. Each section offers practical guidance drawn from experts and real-world experience.</p>
+<form onsubmit="openPage(); return false;">
+  <label for="site-search">Search the site:</label>
+  <input type="search" id="site-search" list="search-options" placeholder="Search pages" />
+  <datalist id="search-options">
+    <option data-href="intro.html" value="Introduction"></option>
+    <option data-href="ethics.html" value="Ethical Principles"></option>
+    <option data-href="accessibility.html" value="Accessibility"></option>
+    <option data-href="case-studies.html" value="Case Studies"></option>
+    <option data-href="policy.html" value="Policy & Legal"></option>
+    <option data-href="technical.html" value="Technical Guidance"></option>
+    <option data-href="community.html" value="Community"></option>
+    <option data-href="ethical-ai-documentation.html" value="AI Documentation"></option>
+  </datalist>
+  <button type="submit">Go</button>
+</form>
+<script>
+function openPage() {
+  const input = document.getElementById('site-search').value.toLowerCase();
+  const opts = document.getElementById('search-options').options;
+  for (let i = 0; i < opts.length; i++) {
+    if (opts[i].value.toLowerCase() === input) {
+      window.location.href = opts[i].dataset.href;
+      return;
+    }
+  }
+  alert('Page not found');
+}
+</script>
     </main>
     <footer role="contentinfo">
         <p>&copy; 2023 Ethical AI in Vocational Rehabilitation</p>
