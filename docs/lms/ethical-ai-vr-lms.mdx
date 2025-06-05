@@ -60,6 +60,29 @@ import Quiz from '@site/src/components/Quiz';
     - Offer clear grievance procedures
 
     <Quiz question="Which concept ensures decisions can be explained?" options={["Opacity", "Transparency", "Secrecy", "Obfuscation"]} correctIndex={1} />
+
+    ### Data Privacy & Consent
+    - Obtain explicit consent for data use
+    - Limit collection to necessary information
+
+    ```python
+    def anonymize(record):
+        return {k: v for k, v in record.items() if k != 'name'}
+    ```
+
+    <Quiz question="Why is consent important when collecting data?" options={["It isn't", "It protects client rights", "To speed up processing", "Because it's trendy"]} correctIndex={1} />
+
+    ### Transparency & Explainability
+    - Share how algorithms make decisions
+    - Provide summaries clients can understand
+
+    <Quiz question="Explainability helps clients:" options={["Trust the system", "Ignore results", "Dismiss policies", "Hack the tool"]} correctIndex={0} />
+
+    ### Human Oversight
+    - Keep professionals in the loop for critical choices
+    - Review automated recommendations regularly
+
+    <Quiz question="Who should have final say in VR decisions?" options={["AI system", "Human counselor", "Random choice", "No one"]} correctIndex={1} />
   </AccordionItem>
 
   <AccordionItem title="Accessibility" id="accessibility">
@@ -98,6 +121,19 @@ import Quiz from '@site/src/components/Quiz';
     - Importance of inclusive data collection
     - Ongoing monitoring for bias
 
+    ### Failure Example
+    - Resume-screening AI overlooked qualified candidates with disabilities
+    - Lack of transparency made appeals difficult
+
+    ```json
+    {
+      "issue": "Candidate with gap in work history filtered out",
+      "resolution": "Manual review required"
+    }
+    ```
+
+    <Quiz question="What caused the failure in this example?" options={["Too many applicants", "Hidden bias in the algorithm", "Perfect data", "Excellent transparency"]} correctIndex={1} />
+
     <Quiz question="Why review case studies?" options={["To memorize facts", "To apply lessons from real situations", "For entertainment", "They are mandatory"]} correctIndex={1} />
   </AccordionItem>
 
@@ -116,6 +152,9 @@ import Quiz from '@site/src/components/Quiz';
     ```
 
     <Quiz question="Select all core ethical principles" options={["Fairness", "Bias", "Transparency", "Accessibility"]} correctIndex={0} />
+
+    <Quiz question="Which law protects health information?" options={["GDPR", "HIPAA", "DMCA", "Fair Use"]} correctIndex={1} />
+    <Quiz question="Regular audits help with:" options={["Creating bias", "Reducing errors", "Ignoring ethics", "Speeding development only"]} correctIndex={1} />
   </AccordionItem>
 </Accordion>
 
