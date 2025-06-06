@@ -180,6 +180,16 @@ footer {
 [hidden] {
     display: none;
 }
+
+.chat-ai {
+    text-align: center;
+    margin: 2em 0;
+}
+
+.chat-ai-img {
+    width: 120px;
+    height: auto;
+}
 @media (max-width: 600px) {
     .contact-modal {
         width: 90vw;
