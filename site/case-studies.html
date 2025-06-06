@@ -23,18 +23,24 @@
         <h2>Private Sector Efforts</h2>
         <p>Companies may offer chatbots or automated screening. They must provide transparency and allow users to reach human counselors when needed.</p>
         <h2>Lessons Learned</h2>
-        <p>Past failures highlight the importance of diverse training data and accessible interfaces. Communities affected by AI should be involved from the start.</p>
-        <h2>Further Reading</h2>
-        <p>Successful pilots shared transparent metrics on how AI recommendations compared with traditional counselor judgments. Publishing these evaluations helps other agencies replicate what works.</p>
-        <p>Ongoing collaborations between data scientists and VR specialists ensure that models remain aligned with participant goals and adapt to evolving labor markets.</p>
         <ul>
-            <li><a href="https://www.strivr.com/walmart-case-study/">Strivr: Walmart VR training case study</a></li>
-            <li><a href="https://ict.usc.edu/prototypes/bravemind/">USC ICT Bravemind project</a></li>
-            <li><a href="https://www.theverge.com/2021/12/16/22839010/meta-horizon-worlds-vr-harassment-virtual-reality">The Verge article on Horizon Worlds harassment</a></li>
+            <li>Stakeholder collaboration improves outcomes.</li>
+            <li>Clear communication builds trust.</li>
+            <li>Accessibility remains a priority.</li>
         </ul>
     </main>
     <footer role="contentinfo">
         <p>&copy; 2023 Ethical AI in Vocational Rehabilitation</p>
+        <button id="contactBtn" class="contact-btn">Contact Us</button>
     </footer>
+    <div id="modalOverlay" class="modal-overlay" hidden></div>
+    <div id="contactModal" class="contact-modal" role="dialog" aria-labelledby="contactTitle" hidden>
+        <button id="closeModal" class="close-btn" aria-label="Close Contact Form">&times;</button>
+        <h2 id="contactTitle">Contact Us</h2>
+        <p>Phone: 555-123-4567</p>
+        <p>Email: info@example.com</p>
+        <p>Discord: #ethical-ai</p>
+    </div>
+    <script src="js/modal.js"></script>
 </body>
 </html>

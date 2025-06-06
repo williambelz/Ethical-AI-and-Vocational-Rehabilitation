@@ -18,7 +18,6 @@
     <main id="maincontent" role="main" tabindex="-1">
         <h2>U.S. Regulations</h2>
         <p>Key laws such as the Americans with Disabilities Act and the Rehabilitation Act guide how technology must support accessibility. HIPAA and privacy rules also apply when handling health records.</p>
-        <p>Section 508 standards for federal agencies specifically require that automated decision systems remain accessible. Agencies should integrate accessibility reviews into procurement and testing cycles.</p>
         <h2>International Frameworks</h2>
         <p>Regulations like the GDPR and Canada's Accessible Canada Act emphasize data protection and user rights. Following these helps ensure global compliance.</p>
         <h2>Templates & Checklists</h2>
@@ -27,6 +26,16 @@
     </main>
     <footer role="contentinfo">
         <p>&copy; 2023 Ethical AI in Vocational Rehabilitation</p>
+        <button id="contactBtn" class="contact-btn">Contact Us</button>
     </footer>
+    <div id="modalOverlay" class="modal-overlay" hidden></div>
+    <div id="contactModal" class="contact-modal" role="dialog" aria-labelledby="contactTitle" hidden>
+        <button id="closeModal" class="close-btn" aria-label="Close Contact Form">&times;</button>
+        <h2 id="contactTitle">Contact Us</h2>
+        <p>Phone: 555-123-4567</p>
+        <p>Email: info@example.com</p>
+        <p>Discord: #ethical-ai</p>
+    </div>
+    <script src="js/modal.js"></script>
 </body>
 </html>
