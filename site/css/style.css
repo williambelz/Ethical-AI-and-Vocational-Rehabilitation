@@ -67,7 +67,7 @@ nav {
 
 nav a {
     margin-right: 1em;
-    color: var(--text-primary);
+    color: var(--accent-color);
     text-decoration: none;
     font-weight: bold;
     font-size: 1.2em; /* Larger font for accessibility */
@@ -85,6 +85,10 @@ nav a:focus {
 a:focus {
     outline: 2px dashed var(--accent-color);
     outline-offset: 2px;
+}
+
+a {
+    color: var(--accent-color);
 }
 
 main {
@@ -108,7 +112,7 @@ main {
 .hero h2 {
     margin-top: 0;
     font-size: 2em;
-    color: var(--accent-color);
+    color: var(--text-primary);
 }
 
 .hero p {
@@ -147,7 +151,7 @@ footer {
 .contact-btn {
     float: right;
     background-color: var(--accent-color);
-    color: #000;
+    color: #fff;
     border: 1px solid var(--border-color);
     box-shadow: 0 0 10px rgba(0, 200, 255, 0.4);
     padding: 0.5em 1em;
