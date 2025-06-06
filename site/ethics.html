@@ -19,19 +19,26 @@
         <h2>Core Principles</h2>
         <ul>
             <li>Fairness and equity</li>
-            <li>Transparency and explainability</li>
-            <li>Autonomy and consent</li>
-            <li>Privacy and data governance</li>
-            <li>Accountability and oversight</li>
-            <li>Justice and inclusiveness</li>
+            <li>Transparency</li>
+            <li>Accountability</li>
+            <li>Privacy protection</li>
+            <li>Inclusiveness</li>
         </ul>
-        <h2>Putting Principles into Practice</h2>
-        <p>Before deploying AI models, conduct audits to identify bias and ensure that people with disabilities participate in testing and review processes.</p>
         <p>Ethical guidelines should be codified in organizational policy and revisited regularly as models evolve. Independent ethics reviews and partnerships with disability advocacy groups strengthen accountability.</p>
         <p>When feasible, share model cards or data sheets that document training sources, limitations, and evaluation results so counselors can interpret recommendations in context.</p>
     </main>
     <footer role="contentinfo">
         <p>&copy; 2023 Ethical AI in Vocational Rehabilitation</p>
+        <button id="contactBtn" class="contact-btn">Contact Us</button>
     </footer>
+    <div id="modalOverlay" class="modal-overlay" hidden></div>
+    <div id="contactModal" class="contact-modal" role="dialog" aria-labelledby="contactTitle" hidden>
+        <button id="closeModal" class="close-btn" aria-label="Close Contact Form">&times;</button>
+        <h2 id="contactTitle">Contact Us</h2>
+        <p>Phone: 555-123-4567</p>
+        <p>Email: info@example.com</p>
+        <p>Discord: #ethical-ai</p>
+    </div>
+    <script src="js/modal.js"></script>
 </body>
 </html>

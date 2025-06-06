@@ -18,15 +18,21 @@
     <main id="maincontent" role="main" tabindex="-1">
         <h2>Join the Conversation</h2>
         <p>Researchers, practitioners, and advocates can collaborate through online forums and regular community calls. Participation helps keep resources current.</p>
-        <h2>Open Data & Hackathons</h2>
-        <p>Periodic events encourage development of ethical AI solutions for vocational rehabilitation. Sample datasets may be provided for experimentation.</p>
-        <h2>Volunteer Opportunities</h2>
-        <p>Participants often form multidisciplinary teams to prototype assistive technologies, drawing on expertise from rehabilitation counseling, data science, and human-computer interaction.</p>
-        <p>Organizations sometimes seek help with writing, translating content, or testing accessibility. Contributions of all kinds are welcome.</p>
-        <p>Community mentorship programs pair experienced technologists with emerging professionals from underrepresented groups to foster inclusive innovation.</p>
+        <h2>Share Your Insights</h2>
+        <p>We welcome submissions of case studies, articles, and best practices from across the vocational rehabilitation community.</p>
     </main>
     <footer role="contentinfo">
         <p>&copy; 2023 Ethical AI in Vocational Rehabilitation</p>
+        <button id="contactBtn" class="contact-btn">Contact Us</button>
     </footer>
+    <div id="modalOverlay" class="modal-overlay" hidden></div>
+    <div id="contactModal" class="contact-modal" role="dialog" aria-labelledby="contactTitle" hidden>
+        <button id="closeModal" class="close-btn" aria-label="Close Contact Form">&times;</button>
+        <h2 id="contactTitle">Contact Us</h2>
+        <p>Phone: 555-123-4567</p>
+        <p>Email: info@example.com</p>
+        <p>Discord: #ethical-ai</p>
+    </div>
+    <script src="js/modal.js"></script>
 </body>
 </html>

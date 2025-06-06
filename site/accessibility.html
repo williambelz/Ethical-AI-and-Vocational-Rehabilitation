@@ -30,21 +30,20 @@
             <li>Provide ARIA labels for custom widgets and buttons.</li>
             <li>Ensure forms and navigation work with voice control and switch devices.</li>
         </ul>
-        <p>For complex data visualizations, provide text summaries or table alternatives so screen-reader users can access key insights. Consider sonification as a supplementary technique.</p>
-        <h2>Color Contrast &amp; Visual Design</h2>
-        <p>Our dark theme uses a minimum contrast ratio of 4.5:1 for normal text. Test color combinations with automated tools and avoid conveying meaning with color alone.</p>
-        <h2>Accessible Forms</h2>
-        <p>Associate each input field with a <code>label</code> element. Describe errors using <code>aria-describedby</code> and provide plain‑language instructions for completing forms.</p>
-        <h2>Responsive Layouts</h2>
-        <p>Layouts reflow for small screens without horizontal scrolling. Use relative units and test zoomed text up to 200% to confirm readability.</p>
-        <h2>Testing Resources</h2>
-        <p>Automated tools like axe-core, pa11y, and browser accessibility checkers help locate issues early. Manual testing with screen readers and keyboard only is essential. See our <a href="../ACCESSIBILITY_REQUIREMENTS.md">Accessibility Requirements</a> for full guidelines.</p>
-        <h2>Continuous Improvement</h2>
-        <p>Accessibility is an ongoing effort. We welcome bug reports or suggestions on our GitHub repository so we can keep refining these resources.</p>
         <p>Incorporating feedback from people with a wide range of disabilities is essential. Conduct usability testing with screen readers, magnifiers, and alternative input devices to uncover real-world barriers.</p>
     </main>
     <footer role="contentinfo">
         <p>&copy; 2023 Ethical AI in Vocational Rehabilitation</p>
+        <button id="contactBtn" class="contact-btn">Contact Us</button>
     </footer>
+    <div id="modalOverlay" class="modal-overlay" hidden></div>
+    <div id="contactModal" class="contact-modal" role="dialog" aria-labelledby="contactTitle" hidden>
+        <button id="closeModal" class="close-btn" aria-label="Close Contact Form">&times;</button>
+        <h2 id="contactTitle">Contact Us</h2>
+        <p>Phone: 555-123-4567</p>
+        <p>Email: info@example.com</p>
+        <p>Discord: #ethical-ai</p>
+    </div>
+    <script src="js/modal.js"></script>
 </body>
 </html>
