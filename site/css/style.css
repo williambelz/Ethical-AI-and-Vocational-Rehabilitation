@@ -7,6 +7,10 @@ body {
     color: #fff;
 }
 
+body.home {
+    background: linear-gradient(135deg, #240046, #003366);
+}
+
 /* Skip link styles for improved keyboard navigation */
 .skip-link {
     position: absolute;
@@ -64,6 +68,7 @@ main {
 
 .hero {
     background-color: #111;
+    background-image: linear-gradient(135deg, #240046, #003366);
     padding: 2em 1em;
     text-align: center;
 }
