@@ -43,6 +43,7 @@ header {
 nav {
     background-color: #000;
     padding: 0.5em 1em;
+    text-align: center;
 }
 
 nav a {
