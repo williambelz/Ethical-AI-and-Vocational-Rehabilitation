@@ -61,6 +61,8 @@ nav a {
     color: #fff;
     text-decoration: none;
     font-weight: bold;
+    font-size: 1.2em; /* Larger font for accessibility */
+    line-height: 1.6;  /* Taller line height for readability */
     border-bottom: 2px solid transparent;
     transition: border-color 0.3s ease;
 }
