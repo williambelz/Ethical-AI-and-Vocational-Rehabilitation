@@ -135,7 +135,7 @@ All new code—HTML, CSS, JavaScript/React—must satisfy the relevant success c
     - Use automated color-contrast tools (e.g., axe-core, pa11y, Chrome DevTools LightHouse).  
     - Update Tailwind theme or custom CSS variables to ensure all primary text and background combinations meet ratio.  
     - Include tests in CI: e.g., `axe-core` accessibility assertion for “contrast.”  
-      - The current site uses a dark theme (black background with white text) providing 21:1 contrast.
+      - The current site uses a dark theme with tech-inspired colors, providing high contrast for readability.
 - **WCAG 2.2 Reference:** 1.4.3 :contentReference[oaicite:8]{index=8}
 
 ##### 1.4.4 Resize Text – Level AA
