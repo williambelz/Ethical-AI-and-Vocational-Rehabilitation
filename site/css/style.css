@@ -1,7 +1,8 @@
 :root {
-    --bg-primary: #0d1117;
-    --bg-secondary: #1b222c;
-    --text-primary: #e6f2ff;
+    /* Futuristic high contrast theme */
+    --bg-primary: #000; /* solid black */
+    --bg-secondary: #000; /* remove gradients */
+    --text-primary: #fff; /* bright white text */
     --accent-color: #00c8ff;
     --border-color: #30363d;
 }
@@ -11,12 +12,12 @@ body {
     margin: 0;
     padding: 0;
     line-height: 1.6;
-    background: linear-gradient(180deg, var(--bg-primary), var(--bg-secondary));
+    background: var(--bg-primary);
     color: var(--text-primary);
 }
 
 body.home {
-    background: linear-gradient(180deg, var(--bg-primary), var(--bg-secondary));
+    background: var(--bg-primary);
 }
 
 /* Skip link styles for improved keyboard navigation */
@@ -34,8 +35,8 @@ body.home {
     width: auto;
     height: auto;
     margin: 1em;
-    background: #fff;
-    color: #000;
+    background: #000;
+    color: #fff;
     padding: 0.5em 1em;
     border: 1px solid var(--border-color);
     z-index: 1000;
@@ -96,8 +97,7 @@ main {
 }
 
 .hero {
-    background-color: #0d1117;
-    background-image: linear-gradient(135deg, #001921, #00293c);
+    background-color: var(--bg-primary);
     padding: 2em 1em;
     text-align: center;
     border: 1px solid var(--border-color);
@@ -171,8 +171,8 @@ footer {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background: #fff;
-    color: #000;
+    background: #000;
+    color: #fff;
     padding: 1em;
     width: 30vw;
     border-radius: 0;
