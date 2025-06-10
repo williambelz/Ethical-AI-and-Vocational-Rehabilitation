@@ -5,9 +5,11 @@ For detailed accessibility guidelines followed by this project, see [ACCESSIBILI
 
 ## Recent Updates
 - Dark theme updated with a tech-inspired color palette and new logo.
-- Added extensive real-world examples in `docs/case-studies/`.
+- Added extensive real-world examples in `.docs/case-studies/`.
 - Accessibility requirements updated to document dark theme contrast.
 - Fixed ampersand encoding issues in HTML pages.
+- Moved website files from `site/` into the repository root so the domain loads from `/`.
+- Documentation now lives in the hidden `.docs/` folder for cleaner deployments.
 
 
 Table of Contents
