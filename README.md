@@ -10,6 +10,7 @@ For detailed accessibility guidelines followed by this project, see [ACCESSIBILI
 - Fixed ampersand encoding issues in HTML pages.
 - Moved website files from `site/` into the repository root so the domain loads from `/`.
 - Documentation now lives in the hidden `.docs/` folder for cleaner deployments.
+- Added a new ChatGPT Guide with tips on responsible use.
 
 
 Table of Contents
