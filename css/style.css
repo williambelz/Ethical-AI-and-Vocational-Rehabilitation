@@ -215,3 +215,15 @@ footer {
         width: 90vw;
     }
 }
+
+/* Accordion styles */
+details {
+    border: 1px solid var(--border-color);
+    padding: 0.5em;
+    margin-bottom: 1em;
+}
+
+details summary {
+    font-weight: bold;
+    cursor: pointer;
+}
