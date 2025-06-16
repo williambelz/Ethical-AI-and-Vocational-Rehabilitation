@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google Gemini Guide</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <a href="#maincontent" class="skip-link">Skip to main content</a>
+    <header role="banner">
+        <img src="logo.svg" alt="Ethical AI in Vocational Rehabilitation logo" class="logo">
+        <h1>Using Google Gemini Models</h1>
+    </header>
+    <nav role="navigation" aria-label="Main navigation">
+        <a href="index.html">Home</a>
+    </nav>
+    <main id="maincontent" role="main" tabindex="-1">
+        <h2>Overview</h2>
+        <p>Google's Gemini models provide state-of-the-art generative text capabilities. Several state vocational rehabilitation programs now use Gemini as their preferred vendor for summarizing case notes and drafting client communications.</p>
+        <h2>Implementation Tips</h2>
+        <ul>
+            <li>Check your state's procurement and data privacy requirements before adopting Gemini services.</li>
+            <li>Maintain logs of prompts and outputs so staff can audit how the model was used.</li>
+            <li>Keep human reviewers in the loop to ensure generated text aligns with VR policies.</li>
+        </ul>
+        <p><a href="https://gemini.google.com" target="_blank" rel="noopener">Explore Gemini models</a></p>
+    </main>
+    <footer role="contentinfo">
+        <p>&copy; 2023 Ethical AI in Vocational Rehabilitation</p>
+        <button id="contactBtn" class="contact-btn">Contact Us</button>
+    </footer>
+    <div id="modalOverlay" class="modal-overlay" hidden></div>
+    <div id="contactModal" class="contact-modal" role="dialog" aria-labelledby="contactTitle" hidden>
+        <button id="closeModal" class="close-btn" aria-label="Close Contact Form">&times;</button>
+        <h2 id="contactTitle">Contact Us</h2>
+        <p>Billy Belz</p>
+        <p>Phone: 214-912-0619</p>
+        <p>Email: Billy@vra11y.com</p>
+        <p>Discord: #ethical-ai</p>
+    </div>
+    <script src="js/modal.js"></script>
+</body>
+</html>
