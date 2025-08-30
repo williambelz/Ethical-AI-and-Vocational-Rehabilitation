@@ -12,6 +12,7 @@ For detailed accessibility guidelines followed by this project, see [ACCESSIBILI
 - Documentation now lives in the hidden `.docs/` folder for cleaner deployments.
 - Added a new ChatGPT Guide with tips on responsible use.
 - Introduced a Google Gemini Guide describing how states are leveraging Gemini models as a preferred AI vendor.
+- Added PDF A11y Remediator specification.
 
 
 Table of Contents
